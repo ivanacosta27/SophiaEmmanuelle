@@ -1,0 +1,197 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(180deg, #fff1f5, #fce4ec);
+    color: #4a4a4a;
+    line-height: 1.7;
+}
+
+/* Main container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 45px 35px;
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(234, 143, 173, 0.25);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* Child name in cursive */
+.child-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    color: #d48aa0;
+    margin-bottom: 6px;
+}
+
+/* Main title */
+header h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #c65b7c;
+    letter-spacing: 0.5px;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #9b5c72;
+    margin-top: 10px;
+}
+
+/* Event details */
+.details {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.details p {
+    font-size: 1.15rem;
+    margin-bottom: 22px;
+    color: #6f4a57;
+}
+
+.event-info p {
+    font-size: 1.05rem;
+    margin: 6px 0;
+}
+
+/* RSVP section */
+.rsvp {
+    margin-top: 40px;
+}
+
+.rsvp h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #c65b7c;
+}
+
+.rsvp p {
+    text-align: center;
+    margin-bottom: 28px;
+    color: #7a4d5c;
+    font-size: 1.05rem;
+}
+
+/* Google Form embed */
+.form-container {
+    width: 100%;
+    height: 900px;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 2px solid #f2c6d3;
+    background: #fff;
+}
+
+.form-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Footer */
+footer {
+    margin-top: 45px;
+    text-align: center;
+    font-size: 1rem;
+    color: #9b5c72;
+}
+
+footer p {
+    font-size: 1.4rem;             /* Bigger text */
+    font-weight: 500;               /* Slightly bolder */
+    color: #c65b7c;                 /* Richer pink to stand out */
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 0.5px;          /* Adds elegance */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Soft shadow for emphasis */
+}
+
+
+/* Heashot */
+.header-image {
+    display: block;
+    width: 90vw; /* Dynamically fills most of the viewport width */
+    max-width: 558px; /* Maximum width on large screens */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 480px; /* Prevent from being too tall */
+    margin: 12px auto; /* Center horizontally */
+    opacity: 0.85;
+    filter: drop-shadow(0 2px 4px rgba(198, 91, 124, 0.2));
+    transition: opacity 0.3s ease;
+}
+
+.header-image:hover {
+    opacity: 1;
+}
+
+
+.header-image:hover {
+    opacity: 1; /* Slightly brighten on hover */
+}
+
+/* Location titles */
+.location-title {
+    margin-top: 28px;
+    font-size: 1.15rem;
+    color: #c65b7c;
+    letter-spacing: 0.4px;
+}
+
+/* Location name */
+.location-name {
+    font-size: 1.05rem;
+    color: #7a4d5c;
+    margin-bottom: 10px;
+}
+
+/* Map container */
+.map-container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto 30px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 2px solid #f2c6d3;
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(212, 138, 160, 0.25);
+}
+
+/* Map iframe */
+.map-container iframe {
+    width: 100%;
+    height: 320px;
+    border: 0;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    .map-container iframe {
+        height: 240px;
+    }
+}
+
+hr {
+    border: none;               /* Remove default border */
+    height: 2px;                /* Thickness of the line */
+    background-color: #f2c6d3;  /* Soft pink color to match your theme */
+    margin: 30px 0;             /* Space above and below */
+    border-radius: 1px;         /* Slightly rounded edges */
+}
